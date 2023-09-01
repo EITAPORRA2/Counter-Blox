@@ -2,14 +2,14 @@
 repeat wait() until game:IsLoaded()
 local LoadingTime = tick();
 ------------------------------------ REPO ------------------------------------
-local repo = 'https://raw.githubusercontent.com/deaddigi/stuff/main/'
+local repo = 'https://raw.githubusercontent.com/EITAPORRA2/Counter-Blox/main/'
 ------------------------------------ LINKS ------------------------------------
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
 local ThemeManager = loadstring(game:HttpGet(repo .. 'Linoria%20Themes.lua'))()
 local SaveManager = loadstring(game:HttpGet(repo .. 'Save%20Manager.lua'))()
 
 Library:Notify('Loading UI...');
-wait(1)
+wait(0.2)
 ------------------------------------ WINDOW -----------------------------------
 local Window = Library:CreateWindow({
     Title = 'Universe Hub',
